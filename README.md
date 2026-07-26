@@ -22,14 +22,11 @@ notes/
 * Under `notes/` you can find arranged tutorial documents with the Markdown format.
 * Under `examples/` you can find various Zephyr demo projects.
 
-## What is the Zephyr Project?
-* The Zephyr™ Project, is a Linux Foundation hosted Collaboration Project, an open source collaborative effort uniting leaders from across the industry to build a best-in-breed small, scalable, real-time operating system (RTOS) optimized for resource constrained devices, across multiple architectures. The Zephyr Project’s goal is to establish a neutral project where silicon vendors, OEMs, ODMs, ISVs, and OSVs can contribute technology to reduce the cost and accelerate time to market for developing the billions of devices that will make up the majority of the Internet of Things.
-
 ## Contents
 
 ### Fundamentals
 - [Basics](./notes/Zephyr%20-%20Basics.md)
-  - **Example**: [Hello World](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/hello_world) 
+  - **Example**: [Hello World](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/hello_world)
 - [Kconfig](./notes/Zephyr%20-%20Kconfig.md)
 - [Device Tree Basics](./notes/Zephyr%20-%20Device%20Tree%20Basics.md)
 - [Device Tree Semantics](./notes/Zephyr%20-%20Device%20Tree%20Semantics.md)
@@ -37,21 +34,21 @@ notes/
 
 ### Core Features
 - [ADC](./notes/Zephyr%20-%20ADC.md)
-  - **Example**: [ADC Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/adc_demo) 
+  - **Example**: [ADC Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/adc_demo)
 - [Modules](./notes/Zephyr%20-%20Modules.md)
-  - **Example**: [Custom Module Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/modules/say_hello)  
+  - **Example**: [Custom Module Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/modules/say_hello)
 - [Writing Device Drivers](./notes/Zephyr%20-%20Writing%20Drivers.md)
-  - **Example**: [Simple Button Driver](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/modules/button) 
+  - **Example**: [Simple Button Driver](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/modules/button)
 - [Multithreading](./notes/Zephyr%20-%20Multithreading.md)
   - **Example 1**: [Threads Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/threads_demo)
   - **Example 2**: [Mutex Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/mutex_demo)
 - [Timers, Counters, and Interrupts](./notes/Zephyr%20-%20Timers%2C%20Counters%2C%20and%20Interrupts.md)
   - **Example 1**: [Timer Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/timer_demo)
-  - **Example 2**: [Counter Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/counter_interrupt_demo) 
+  - **Example 2**: [Counter Demo](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/counter_interrupt_demo)
 
 ### Advanced Topics
 - [Custom Board Support](./notes/Zephyr%20-%20Custom%20Board%20Support.md)
-  - **Example**: [Custom Support For STM32F4 Discovery Board](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/boards) 
+  - **Example**: [Custom Support For STM32F4 Discovery Board](https://github.com/0xAMF/Zephyr-RTOS-Notes/tree/main/examples/boards)
 - [West Workspaces](./notes/Zephyr%20-%20West%20Workspaces.md)
 
 ### Extras
@@ -79,5 +76,5 @@ west build /path/to/app/build -t run
 ## Resources
 1. [Practical Zephyr Series](https://interrupt.memfault.com/tags#practical-zephyr-series)
 2. [Introduction To Zephyr: DigiKey](https://www.youtube.com/playlist?list=PLEBQazB0HUyTmK2zdwhaf8bLwuEaDH-52)
-3. [Zephyr RTOS Official Documentation](https://docs.zephyrproject.org/latest/)  
-4. [Zephyr GitHub Repository](https://github.com/zephyrproject-rtos/zephyr)  
+3. [Zephyr RTOS Official Documentation](https://docs.zephyrproject.org/latest/)
+4. [Zephyr GitHub Repository](https://github.com/zephyrproject-rtos/zephyr)
