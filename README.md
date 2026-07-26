@@ -1,4 +1,29 @@
-# Zephyr RTOS Notes
+ <a href="https://www.zephyrproject.org">
+     <p align="center">
+       <picture>
+         <source media="(prefers-color-scheme: dark)" srcset="notes/images/logo-readme-dark.svg">
+         <source media="(prefers-color-scheme: light)" srcset="notes/images/logo-readme-light.svg">
+         <img src="doc/_static/images/logo-readme-light.svg">
+       </picture>
+     </p>
+  </a>
+
+# A Zephyr Tutorial
+* This repository aims to provide a thorough tutorial on the Zephyr real time operating system (RTOS).
+* It is intended for people who are learning about Zephyr, building a project based on Zephyr, or joining Zephyr's developement.
+* The repository contains arranged documents in the Markdown format
+
+# Structure
+* The repository structure is as follows:
+```
+examples/
+notes/
+```
+* Under `notes/` you can find arranged tutorial documents with the Markdown format.
+* Under `examples/` you can find various Zephyr demo projects.
+
+## What is the Zephyr Project?
+* The Zephyr™ Project, is a Linux Foundation hosted Collaboration Project, an open source collaborative effort uniting leaders from across the industry to build a best-in-breed small, scalable, real-time operating system (RTOS) optimized for resource constrained devices, across multiple architectures. The Zephyr Project’s goal is to establish a neutral project where silicon vendors, OEMs, ODMs, ISVs, and OSVs can contribute technology to reduce the cost and accelerate time to market for developing the billions of devices that will make up the majority of the Internet of Things.
 
 ## Contents
 
