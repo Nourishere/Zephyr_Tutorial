@@ -9,7 +9,7 @@
 7. Resources
 
 ## What is the Zephyr Project?
-* The Zephyr Project is an open-source collaborative project hosted by the [Linux Foundation](https://www.linuxfoundation.org/). The Zephyr project provides the Zephyr kernel, the Zephyr SDK, and West (the meta tool).
+* The Zephyr™ Project, is a Linux Foundation hosted Collaboration Project, an open source collaborative effort uniting leaders from across the industry to build a best-in-breed small, scalable, real-time operating system (RTOS) optimized for resource constrained devices, across multiple architectures. The Zephyr Project’s goal is to establish a neutral project where silicon vendors, OEMs, ODMs, ISVs, and OSVs can contribute technology to reduce the cost and accelerate time to market for developing the billions of devices that will make up the majority of the Interet of Things.
 
 ## History
 | Year | Description |
