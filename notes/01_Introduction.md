@@ -49,5 +49,7 @@
   ## Resources
   * A good Zephyr introduction presentation: [https://www.zephyrproject.org/wp-content/uploads/2026/04/Zephyr-Overview-20260424.pdf]
   * Zephyr's supported boards: [https://docs.zephyrproject.org/latest/boards/index.html#]
+  * Zephyr RTOS Official Documentation: [https://docs.zephyrproject.org/latest/]
+  * Zephyr GitHub Repository: [https://github.com/zephyrproject-rtos/zephyr]
 
     [^1]: A microkernel is a minimal kernel that provides the base OS functionalities and defers most others to userspace.
