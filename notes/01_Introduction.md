@@ -430,7 +430,7 @@
 
 1. [Zephyr GitHub repository](https://github.com/zephyrproject-rtos/zephyr)
 2. [Zephyr Project Overview](https://www.zephyrproject.org/wp-content/uploads/2026/04/Zephyr-Overview-20260424.pdf)
-3. [Zephyr Turns 10](https://www.linuxfoundation.org/hubfs/Research Reports/ZephyrTurns10_Report_Revised_051826.pdf?hsLang=en)
+3. [Zephyr Turns 10](https://www.linuxfoundation.org/hubfs/Research%20Reports/ZephyrTurns10_Report_Revised_051826.pdf?hsLang=en)
 4. [Zephyr Project Documentation](https://docs.zephyrproject.org/latest)
 5. [Comparing FreeRTOS vs. Zephyr](https://www.ul.com/sis/blog/measuring-real-time-operating-system-performance-part-ii-comparing-freertos-vs-zephyr)
 6. [Zephyr's Build System](https://docs.zephyrproject.org/latest/build/index.html)
