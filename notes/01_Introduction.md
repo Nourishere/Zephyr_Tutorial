@@ -259,6 +259,8 @@
 
 <img src="images/Zephyr_uses.png">
 
+*[Check [Resources#16](#90-resources)]*
+
 - According to a survey done on  26 Jul 2026, Zephyr is mostly used in **automation systems, consumer IoT devices, sensors and monitoring equipment, and wearable devices.**
 - The following are some of the products running Zephyr today
 
@@ -401,6 +403,8 @@
 
 ![img](images/Zephyr_vs_FreeRTOS.png)
 
+*[Check [Resources#4](#90-resources)]*
+
 - Zephyr's task synchronization (mutexes) block for a lower number of cycles. Interrupt latency is about the same as FreeRTOS. Context switching in FreeRTOS is faster.
 - One reason for the task synchronization difference is that FreeRTOS reuses the code for message queues to implement mutexes while Zephyr uses a separate mutex implementation.
 - Zephyr's task communication (queue block and unblock) is also superior.
@@ -436,7 +440,7 @@
 
 ![](images/Zephyr_boards_chart.png)
 
-- On the other hand, maintenance and LTS, safety certifications, and documentation are the current challenges that face Zephyr.
+- On the other hand, maintenance and LTS, safety certifications, and documentation are the current challenges that face Zephyr [See [References#16](#90-resources)]
 
 ![img](images/Zephyr_future.png)
 
@@ -444,9 +448,9 @@
 
 1. [Zephyr GitHub repository](https://github.com/zephyrproject-rtos/zephyr)
 2. [Zephyr Project Overview](https://www.zephyrproject.org/wp-content/uploads/2026/04/Zephyr-Overview-20260424.pdf)
-3. [Zephyr Turns 10](https://www.linuxfoundation.org/hubfs/Research%20Reports/ZephyrTurns10_Report_Revised_051826.pdf?hsLang=en)
-4. [Zephyr Project Documentation](https://docs.zephyrproject.org/latest)
-5. [Comparing FreeRTOS vs. Zephyr](https://www.ul.com/sis/blog/measuring-real-time-operating-system-performance-part-ii-comparing-freertos-vs-zephyr)
+3. [Zephyr Project Documentation](https://docs.zephyrproject.org/latest)
+4. [Comparing FreeRTOS vs. Zephyr](https://www.ul.com/sis/blog/measuring-real-time-operating-system-performance-part-ii-comparing-freertos-vs-zephyr)
+5. [Products running Zephyr](https://www.zephyrproject.org/products-running-zephyr/)
 6. [Zephyr's Build System](https://docs.zephyrproject.org/latest/build/index.html)
 7. [Zephyr C Language Support](https://docs.zephyrproject.org/latest/develop/languages/c/index.html)
 8. [Leveraging Zephyr RTOS for modern embedded systems](https://ceur-ws.org/Vol-4184/paper4.pdf)
@@ -457,3 +461,4 @@
 13. [Memory Protection Design — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/kernel/usermode/memory_domain.html)
 14. [MCUboot Design Documentation](https://docs.mcuboot.com/design.html)
 15. [Power Management — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/services/pm/index.html)
+16. [Zephyr Turns 10](https://www.linuxfoundation.org/hubfs/Research%20Reports/ZephyrTurns10_Report_Revised_051826.pdf?hsLang=en)
