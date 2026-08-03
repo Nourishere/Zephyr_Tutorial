@@ -62,11 +62,11 @@
 
 ## 1.2 History
 
-![ss_2026_07_28](images/Zephyr_history.png)
+<img src="images/Zephyr_history.png" alt="ss_2026_07_28" style="zoom:150%;" />
 
 - After the Zephyr Project was announced and hosted by the Linux Foundation, it became supported by a big number of tech companies in the IoT, hardware, and software industry.
 
-<img src="images/Zephyr_sponsors.png" style="zoom:50%;" />
+<img src="images/Zephyr_sponsors.png" style="zoom:100%;" />
 
 # 2.0 Building an Embedded Application
 
@@ -99,7 +99,7 @@
 
 - The following figure depicts the more realistic architecture.
 
-  ![img](images/Zephyr_layers2.png)
+  <img src="images/Zephyr_layers2.png" alt="img" style="zoom:170%;" />
 
 - Note that not all of these components have to exist in a given system, but it is common for modern embedded systems to require the use of many of them.
 
@@ -140,7 +140,7 @@
   2. **Middleware**: Zephyr has a robust RTOS kernel, a HAL layer, wireless/Bluetooth stacks, filesystem, and much more.
   3. **Application**: this layer doesn't change. Only it has to be configured and built according to the Zephyr build process.
 
-<img src="images/Zephyr_stack_2.png" style="zoom:67%;" />
+![](images/Zephyr_stack_2.png)
 
 # 4.0 Why Does it Matter?
 
@@ -263,6 +263,20 @@
 - The following are some of the products running Zephyr today
 
 ![](images/Zephyr_products.png)
+
+* Zephyr is used inside of **Google Chromebooks**. It powers the **Embedded Controller (EC)**, which is a ultra-low power microprocessor that powers the application processor (AP), controls sensors, and monitors the temperature of the device.
+
+![](images/Zephyr_Chromebook.svg)
+
+* One of the industrial applications of Zephyr is the **BeST SENSOR Pump Monitor JROV2201**, which is a temperature, moisture, accelerometer, orientation, and pressure sensor used to monitor the status of wastewater tanks. It is used in the ICE trains in Germany.
+
+* Powered by Nordic’s nRF9160 SiP cellular IoT solution, an integrated  pattern recognition system detects any issues with the tank. The SiP’s  powerful 64 MHz Arm Cortex-M33 processor analyses the disposal flow.
+
+  > From a software perspective, the SiP provides a real-time operating  system (Zephyr RTOS) with multi-tasking, extensive support with driver  software for additional components such as sensors and LEDs, and open  source components. The development environment is available for Linux,  macOS, and Windows.
+
+  ​      Oliver Völckers, Co-Founder of BeST SENSOR
+
+  ![](images/Zephyr_Best-Sensor.avif)
 
 ## 5.3 The OS Spectrum
 
