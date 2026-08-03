@@ -420,13 +420,13 @@
 
 ## 8.1 The Community
 
-|           | Contributors | Commits  |
-| --------- | ------------ | -------- |
-| Zephyr    | 3490         | ~174,000 |
-| RT-thread | 823          | ~18,000  |
-| NuttX     | 730          | ~62,500  |
-| RIOT-OS   | 388          | ~50,000  |
-| FreeRTOS  | 246          | ~3,700   |
+| (numbers are of August 2026) | Contributors | Commits  |
+| ---------------------------- | ------------ | -------- |
+| Zephyr                       | 3490+        | ~147,000 |
+| RT-thread                    | 823+         | ~18,000  |
+| NuttX                        | 730+         | ~62,500  |
+| RIOT-OS                      | 388+         | ~50,000  |
+| FreeRTOS                     | 246+         | ~3,700   |
 
 - Compared to August 2025, Zephyr has had an additional **700** contributor. It also had an additional **54,000** commits.
 
