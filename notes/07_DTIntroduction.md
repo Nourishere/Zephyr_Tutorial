@@ -222,7 +222,7 @@ properties:
 
 * The following figure shows the highest level view of how Devicetrees make their way into code and application files.
 
-![](images/zephyr_dt_build_flow.png)
+![](images/Zephyr_dt_build_flow.png)
 
 * Note here that the Devicetree gets compiled and fit into a generated header file. There is no actual manual macro descriptions happening. On top of that, the `devicetree.h` offers an abstraction layer to prevent the user from manually going into the generated header file and looking for data himself.
 * **In the next couple of tutorials, we'll dive more into the compilation process plus some real board examples.** 
