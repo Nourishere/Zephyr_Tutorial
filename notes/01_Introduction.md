@@ -68,6 +68,8 @@
 
 <img src="images/Zephyr_sponsors.png" style="zoom:100%;" />
 
+*[Check [Resources#4](#90-resources)]*
+
 # 2.0 Building an Embedded Application
 
 ## 2.1 The Software Development Life-cycle (SDLC)
@@ -160,6 +162,8 @@
 
 ![img](images/Zephyr_Apache.png)
 
+*[Check [Resources#6](#90-resources)]*
+
 - Zephyr is a decentralized free and open-source project. It uses the **permissive Apache 2.0 license** which eliminates vendor lock in from its roots. Your application isn't simply dependent on a tool or a software from some vendor. Instead, Zephyr ensures that you can always port, integrate, or even build your own stack on top of it and then sell it under your license.
 
 ### 4.1.3 Cost
@@ -231,6 +235,8 @@
 
 ![](images/Zephyr_security.png)
 
+*[Check [Resources#12](#90-resources)]*
+
 - Zephyr does not yet hold a formal safety certification, but it is working towards such goal.
 - Zephyr has received **concept approval for IEC 61508** (industrial functional safety), meaning the certifying authority has confirmed that if the project delivers on its stated engineering approach, formal certification will follow.
 - The target safety integrity level is **SIL 3** (of a possible SIL 4), which covers the large majority of real-world functional-safety use cases. Crucially, the certification scope is limited to the **core OS — the kernel and OS services** — across a select set of architectures. It explicitly excludes platform drivers, board support packages, filesystems, and sensor driver implementations for this initial submission, which matters for anyone planning a certified product.
@@ -259,12 +265,14 @@
 
 <img src="images/Zephyr_uses.png">
 
-*[Check [Resources#16](#90-resources)]*
+*[Check [Resources#18](#90-resources)]*
 
 - According to a survey done on  26 Jul 2026, Zephyr is mostly used in **automation systems, consumer IoT devices, sensors and monitoring equipment, and wearable devices.**
 - The following are some of the products running Zephyr today
 
 ![](images/Zephyr_products.png)
+
+*[Check [Resources#7](#90-resources)]*
 
 * Zephyr is used inside of **Google Chromebooks**. It powers the **Embedded Controller (EC)**, which is a ultra-low power microprocessor that powers the application processor (AP), controls sensors, and monitors the temperature of the device.
 
@@ -277,8 +285,14 @@
   > From a software perspective, the SiP provides a real-time operating  system (Zephyr RTOS) with multi-tasking, extensive support with driver  software for additional components such as sensors and LEDs, and open  source components. The development environment is available for Linux,  macOS, and Windows.
 
   ​      Oliver Völckers, Co-Founder of BeST SENSOR
-
   ![](images/Zephyr_Best-Sensor.avif)
+* In the realm of hardware AI acceleration, Zephyr is used inside of the **Blackhole PCIe Boards**. These boards feature 16 RISC-V cores which are the main processing cores. Zephyr runs on the **SMC (System Management Controller) and the DMC (Device Management Controller)**. The SMC runs an **ARC** cluster on an ASIC that is responsible for frequency scaling and power management.
+  <img src="images/Blackhole_AI.webp" style="zoom:30%;" />
+* One product example in the IoT class is the **splitR** Bluetooth hub. It supports Bluetooth LE Audio and Auracast, enabling one-to-many audio broadcasting to multiple compatible receivers with low latency and high audio quality.
+
+* Zephyr RTOS provides a hardware-agnostic, production-ready ecosystem with mature Bluetooth and power management subsystems.
+
+<img src="images/Zephyr_SplitR.avif" style="zoom:70%;" />
 
 ## 5.3 The OS Spectrum
 
@@ -403,7 +417,7 @@
 
 ![img](images/Zephyr_vs_FreeRTOS.png)
 
-*[Check [Resources#4](#90-resources)]*
+*[Check [Resources#5](#90-resources)]*
 
 - Zephyr's task synchronization (mutexes) block for a lower number of cycles. Interrupt latency is about the same as FreeRTOS. Context switching in FreeRTOS is faster.
 - One reason for the task synchronization difference is that FreeRTOS reuses the code for message queues to implement mutexes while Zephyr uses a separate mutex implementation.
@@ -440,25 +454,31 @@
 
 ![](images/Zephyr_boards_chart.png)
 
+*[Check [Resources#2](#90-resources)]*
+
 - On the other hand, maintenance and LTS, safety certifications, and documentation are the current challenges that face Zephyr [See [References#16](#90-resources)]
 
 ![img](images/Zephyr_future.png)
+
+*[Check [Resources#18](#90-resources)]*
 
 # 9.0 Resources
 
 1. [Zephyr GitHub repository](https://github.com/zephyrproject-rtos/zephyr)
 2. [Zephyr Project Overview](https://www.zephyrproject.org/wp-content/uploads/2026/04/Zephyr-Overview-20260424.pdf)
 3. [Zephyr Project Documentation](https://docs.zephyrproject.org/latest)
-4. [Comparing FreeRTOS vs. Zephyr](https://www.ul.com/sis/blog/measuring-real-time-operating-system-performance-part-ii-comparing-freertos-vs-zephyr)
-5. [Products running Zephyr](https://www.zephyrproject.org/products-running-zephyr/)
-6. [Zephyr's Build System](https://docs.zephyrproject.org/latest/build/index.html)
-7. [Zephyr C Language Support](https://docs.zephyrproject.org/latest/develop/languages/c/index.html)
-8. [Leveraging Zephyr RTOS for modern embedded systems](https://ceur-ws.org/Vol-4184/paper4.pdf)
-9. [Architecture Porting Guide — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/hardware/porting/arch.html#architecture-porting-guide)
-10. [Zephyr Project Security](https://zephyrproject.org/security/)
-11. [Security Vulnerability Reporting — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/security/reporting.html)
-12. [User Mode Overview — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/kernel/usermode/overview.html)
-13. [Memory Protection Design — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/kernel/usermode/memory_domain.html)
-14. [MCUboot Design Documentation](https://docs.mcuboot.com/design.html)
-15. [Power Management — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/services/pm/index.html)
-16. [Zephyr Turns 10](https://www.linuxfoundation.org/hubfs/Research%20Reports/ZephyrTurns10_Report_Revised_051826.pdf?hsLang=en)
+4. [Zephyr Members](https://www.zephyrproject.org/project-members/)
+5. [Comparing FreeRTOS vs. Zephyr](https://www.ul.com/sis/blog/measuring-real-time-operating-system-performance-part-ii-comparing-freertos-vs-zephyr)
+6. [Apache 2.0 License](https://www.tldrlegal.com/license/apache-license-2-0-apache-2-0)
+7. [Products running Zephyr](https://www.zephyrproject.org/products-running-zephyr/)
+8. [Zephyr's Build System](https://docs.zephyrproject.org/latest/build/index.html)
+9. [Zephyr C Language Support](https://docs.zephyrproject.org/latest/develop/languages/c/index.html)
+10. [Leveraging Zephyr RTOS for modern embedded systems](https://ceur-ws.org/Vol-4184/paper4.pdf)
+11. [Architecture Porting Guide — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/hardware/porting/arch.html#architecture-porting-guide)
+12. [Zephyr Project Security](https://zephyrproject.org/security/)
+13. [Security Vulnerability Reporting — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/security/reporting.html)
+14. [User Mode Overview — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/kernel/usermode/overview.html)
+15. [Memory Protection Design — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/kernel/usermode/memory_domain.html)
+16. [MCUboot Design Documentation](https://docs.mcuboot.com/design.html)
+17. [Power Management — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/services/pm/index.html)
+18. [Zephyr Turns 10](https://www.linuxfoundation.org/hubfs/Research%20Reports/ZephyrTurns10_Report_Revised_051826.pdf?hsLang=en)
